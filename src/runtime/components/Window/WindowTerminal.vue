@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import Terminal from 'primevue/terminal'
 import TerminalService from 'primevue/terminalservice'
-import { useTerminalManager } from 'nuxt-desktop/runtime/composables/useTerminalManager'
+import { useTerminalManager } from '@owdproject/nuxt/runtime/composables/useTerminalManager'
 import { useRuntimeConfig } from '#imports'
 import { onMounted, onBeforeUnmount, computed } from 'vue'
 
