@@ -9,10 +9,10 @@
   },
   "dependencies": {
     "@owdproject/app-terminal": "workspace:*",
-    "@owdproject/core": "workspace:*",
-    "@owdproject/module-fs": "workspace:*",
-    "@owdproject/nuxt-persistence-pinia": "workspace:*",
-    "@owdproject/theme-nova": "workspace:*",
+    "@owdproject/core": "^4.0.0-alpha.3",
+    "@owdproject/module-fs": "^4.0.0-alpha.3",
+    "@owdproject/nuxt-persistence-pinia": "^4.0.0-alpha.3",
+    "@owdproject/theme-nova": "^4.0.0-alpha.3",
     "nuxt": "^4.4.6"
   }
 }
