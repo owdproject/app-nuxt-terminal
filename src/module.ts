@@ -1,3 +1,4 @@
+import type { NuxtModule } from '@nuxt/schema'
 import {
   defineNuxtModule,
   createResolver,
@@ -6,7 +7,7 @@ import {
 } from '@nuxt/kit'
 import { registerTailwindPath } from '@owdproject/kit-tailwind/kit/registerTailwindPath'
 
-export default defineNuxtModule({
+const module: NuxtModule<any> = defineNuxtModule({
   meta: {
     name: 'desktop-app-terminal',
     configKey: 'terminal',
@@ -36,3 +37,6 @@ export default defineNuxtModule({
     )
   },
 })
+
+export default module
+

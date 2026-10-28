@@ -28,7 +28,7 @@ export default {
     },
   },
   commands: {
-    terminal: (app: IApplicationController) => {
+    terminal: (app: any) => {
       app.openWindow('main')
     },
   },
