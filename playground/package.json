@@ -1,5 +1,5 @@
 {
-  "name": "@owdproject/app-terminal-playground",
+  "name": "@owdproject/app-nuxt-terminal-playground",
   "private": true,
   "type": "module",
   "scripts": {
@@ -8,11 +8,11 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@owdproject/app-terminal": "workspace:*",
+    "@owdproject/app-nuxt-terminal": "workspace:*",
     "@owdproject/core": "^4.0.0-alpha.3",
-    "@owdproject/module-fs": "^4.0.0-alpha.3",
-    "@owdproject/nuxt-persistence-pinia": "^4.0.0-alpha.3",
-    "@owdproject/theme-nova": "^4.0.0-alpha.3",
+    "@owdproject/module-nuxt-fs": "^4.0.0-alpha.3",
+    "@owdproject/module-nuxt-pinia-persistence": "^4.0.0-alpha.3",
+    "@owdproject/theme-nuxt-nova": "^4.0.0-alpha.3",
     "nuxt": "^4.4.6"
   }
 }

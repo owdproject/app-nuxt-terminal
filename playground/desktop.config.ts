@@ -1,9 +1,9 @@
 import { defineDesktopConfig } from '@owdproject/nuxt'
 
 export default defineDesktopConfig({
-  theme: '@owdproject/theme-nova',
-  modules: ['@owdproject/module-fs', '@owdproject/nuxt-persistence-pinia'],
-  apps: ['@owdproject/app-terminal'],
+  theme: '@owdproject/theme-nuxt-nova',
+  modules: ['@owdproject/module-nuxt-fs', '@owdproject/module-nuxt-pinia-persistence'],
+  apps: ['@owdproject/app-nuxt-terminal'],
   systemBar: { enabled: true, startButton: true },
   fs: {
     mounts: {

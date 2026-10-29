@@ -15,7 +15,7 @@ This app for Open Web Desktop is a basic terminal to interact with other apps.
 ## Installation
 
 ```bash
-pnpm desktop add @owdproject/app-terminal
+pnpm desktop add @owdproject/app-nuxt-terminal
 ```
 
 ## Installation
