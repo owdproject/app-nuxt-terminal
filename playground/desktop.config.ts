@@ -1,9 +1,9 @@
 import { defineDesktopConfig } from '@owdproject/nuxt'
 
 export default defineDesktopConfig({
-  theme: '@owdproject/theme-nuxt-nova',
-  modules: ['@owdproject/module-nuxt-fs', '@owdproject/module-nuxt-pinia-persistence'],
-  apps: ['@owdproject/app-nuxt-terminal'],
+  theme: '@owdproject/nuxt-theme-nova',
+  modules: ['@owdproject/nuxt-module-fs', '@owdproject/nuxt-module-pinia-persistence'],
+  apps: ['@owdproject/nuxt-app-terminal'],
   systemBar: { enabled: true, startButton: true },
   fs: {
     mounts: {
@@ -13,7 +13,7 @@ export default defineDesktopConfig({
   about: {
     title: 'Terminal (playground)',
     subtitle: 'app-terminal · theme-nova',
-    href: 'https://github.com/owdproject/app-terminal',
+    href: 'https://github.com/owdproject/nuxt-app-terminal',
     versionText: 'Nuxt Desktop',
     icons: [
       {
